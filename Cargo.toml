@@ -12,3 +12,7 @@ features = ["json", "uuid"]
 [dependencies.uuid]
 version = "1"
 features = ["v1", "v4"]
+
+[dependencies.rocket_db_pools]
+version = "0.1.0-rc.2"
+features = ["sqlx_sqlite"]
